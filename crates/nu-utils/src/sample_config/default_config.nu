@@ -431,13 +431,6 @@ $env.config = {
             event: { send: clearscreen }
         }
         {
-            name: search_history
-            modifier: control
-            keycode: char_r
-            mode: [emacs, vi_normal, vi_insert]
-            event: { send: searchhistory }
-        }
-        {
             name: open_command_editor
             modifier: control
             keycode: char_o
